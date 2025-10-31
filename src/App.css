@@ -15,3 +15,22 @@ body {
   90% { opacity: 1; }
   100% { opacity: 0; }
 }
+/* ===== Responsive Fix for Mobile ===== */
+@media (max-width: 576px) {
+  form {
+    flex-direction: column !important; /* Stack input + button */
+    align-items: center !important; /* Center them */
+  }
+
+  .email-input {
+    width: 90% !important; /* Make input wide */
+    max-width: 320px;
+    margin-bottom: 10px; /* spacing below input */
+  }
+
+  .notify-btn {
+    width: 50% !important; /* Button smaller and centered */
+    max-width: 200px;
+    align-self: center; /* Center button in column layout */
+  }
+}

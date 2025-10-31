@@ -139,31 +139,44 @@ function Radnuscomingsoon() {
                 >
                   <input
                     type="email"
-                    className="form-control form-control-sm w-auto"
+                    className="form-control flex-grow-1 email-input"
                     placeholder="Enter your email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    style={{ maxWidth: "300px", fontSize: "0.9rem" }}
+                    style={{
+                      minWidth: "300px",
+                      maxWidth: "400px",
+                      fontSize: "1rem",
+                      height: "38px", // uniform height
+                      padding: "6px 12px",
+                    }}
                   />
 
                   <button
                     type="submit"
-                    className="btn btn-outline-light btn-sm px-3 py-2 fs-6"
+                    className="btn btn-outline-light notify-btn"
+                    style={{
+                      height: "38px", // ✅ same as input height
+                      lineHeight: "1.2",
+                      minWidth: "120px",
+                      maxWidth: "400px",
+                      padding: "6px 18px",
+                    }}
                   >
                     Notify Me
                   </button>
                 </form>
               ) : (
                 <div
-                  className="mt-4 alert alert-success p-3 w-auto fs-6 shadow"
+                  className="mt-4 alert alert-success p-3 w-auto fs-5 shadow"
                   role="alert"
                 >
                   Thank you! We’ll notify you once the website goes live.
                 </div>
               )}
 
-              <p className="mt-3 text-light small">
+              <p className="mt-3 text-light fs-6">
                 Enter your email to get a launch notification from
                 RadnusUnlocker.
               </p>
