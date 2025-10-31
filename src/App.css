@@ -1,0 +1,11 @@
+.fade-text {
+  transition: opacity 0.8s ease-in-out;
+  animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
