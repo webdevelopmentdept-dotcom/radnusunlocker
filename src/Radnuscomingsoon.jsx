@@ -99,7 +99,9 @@ function Radnuscomingsoon() {
             {/* 🟣 Left Side */}
             <div className="col-md-6 d-flex flex-column justify-content-center ps-md-5 ps-lg-5">
               {/* Dynamic rotating message */}
-              <h5 className="fs-2">Radnus Unlocker</h5>
+              <h5 className="" style={{ fontSize: "2rem" }}>
+                Radnus Unlocker
+              </h5>
               <p className="fs-5 mb-3 fade-text">{message}</p>
 
               <h2 className="fw-bold display-6 mb-4">
