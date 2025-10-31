@@ -83,7 +83,7 @@ function Radnuscomingsoon() {
             <img
               src={logo}
               alt="Logo"
-              style={{ width: "120px", marginRight: "10px" }}
+              style={{ width: "150px", marginRight: "10px" }}
             />
           </a>
         </div>
@@ -99,12 +99,12 @@ function Radnuscomingsoon() {
             {/* 🟣 Left Side */}
             <div className="col-md-6 d-flex flex-column justify-content-center ps-md-5 ps-lg-5">
               {/* Dynamic rotating message */}
-              <h5 className="" style={{ fontSize: "2rem" }}>
+              <h5 className="" style={{ fontSize: "2.2rem" }}>
                 Radnus Unlocker
               </h5>
-              <p className="fs-5 mb-3 fade-text">{message}</p>
+              <p className="fs-4 mb-3 fade-text">{message}</p>
 
-              <h2 className="fw-bold display-6 mb-4">
+              <h2 className="fw-bold display-5 mb-4">
                 We’re <span className="text-warning">Launching</span> Soon
               </h2>
 
@@ -112,19 +112,19 @@ function Radnuscomingsoon() {
                 <div className="d-flex flex-wrap gap-4 fs-3 fw-semibold mb-4">
                   <div>
                     <div>{time.days}</div>
-                    <div className="fs-6 fw-normal">Days</div>
+                    <div className="fs-5 fw-normal">Days</div>
                   </div>
                   <div>
                     <div>{time.hours}</div>
-                    <div className="fs-6 fw-normal">Hours</div>
+                    <div className="fs-5 fw-normal">Hours</div>
                   </div>
                   <div>
                     <div>{time.minutes}</div>
-                    <div className="fs-6 fw-normal">Minutes</div>
+                    <div className="fs-5 fw-normal">Minutes</div>
                   </div>
                   <div>
                     <div>{time.seconds}</div>
-                    <div className="fs-6 fw-normal">Seconds</div>
+                    <div className="fs-5 fw-normal">Seconds</div>
                   </div>
                 </div>
               ) : (
