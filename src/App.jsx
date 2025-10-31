@@ -1,8 +1,12 @@
 import React from "react";
-import ComingSoon from "./Radnuscomingsoon";
+import Radnuscomingsoon from "./Radnuscomingsoon.jsx";
 
 function App() {
-  return <ComingSoon />;
+  return (
+    <div>
+      <Radnuscomingsoon />
+    </div>
+  );
 }
 
 export default App;
