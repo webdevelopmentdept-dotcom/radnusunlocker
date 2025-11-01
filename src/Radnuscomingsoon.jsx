@@ -56,6 +56,33 @@ function Radnuscomingsoon() {
 
   return (
     <>
+      <Helmet>
+        <meta
+          name="google-site-verification"
+          content="lCX6IP_Txxbx5iNCiVo9quEfHpKuKllRXKnEDCkM7t4"
+        />
+        <title>Ranus Unlocker | Launching Soon | Radnus Unlockers</title>
+        <meta
+          name="description"
+          content="Ranus Unlocker by Radnus Unlockers — exciting updates coming soon. Stay tuned for our official launch!"
+        />
+        <meta
+          name="keywords"
+          content="Ranus Unlocker, Radnus Unlocker, mobile unlock service, coming soon"
+        />
+        <link rel="canonical" href="https://www.radnusunlockers.com/" />
+        <meta property="og:title" content="Ranus Unlocker | Launching Soon" />
+        <meta
+          property="og:description"
+          content="Exciting updates are on the way from Radnus Unlockers."
+        />
+        <meta property="og:url" content="https://www.radnusunlockers.com/" />
+        <meta
+          property="og:image"
+          content="https://www.radnusunlockers.com/logo.png"
+        />
+      </Helmet>
+
       <div
         className="text-white vh-100 vw-100 position-relative"
         style={{
