@@ -1,16 +1,6 @@
 {
-  "routes": [
-    {
-      "src": "/google1e16842b0c746b.html",
-      "dest": "/google1e16842b0c746b.html"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+  "rewrites": [
+    { "source": "/googleda1e16842b0c746b.html", "destination": "/googleda1e16842b0c746b.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
