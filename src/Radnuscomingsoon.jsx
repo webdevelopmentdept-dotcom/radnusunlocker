@@ -69,7 +69,7 @@ function Radnuscomingsoon() {
         />
         <meta
           name="keywords"
-          content="Radnus Unlocker, mobile unlock service, coming soon"
+          content="Radnus unlocker, mobile unlock service, coming soon,Radnus,radnus,Randus Pondicherry,Radnus new idea,Radnus new launch"
         />
         <link rel="canonical" href="https://www.radnusunlockers.com/" />
         <meta property="og:title" content="Radnus Unlocker | Launching Soon" />
@@ -198,7 +198,7 @@ function Radnuscomingsoon() {
                   </form>
                 ) : (
                   <div
-                    className="mt-4 alert alert-success p-3 w-auto fs-5 shadow"
+                    className="mt-4 alert p-3 w-auto fs-5 shadow"
                     role="alert"
                   >
                     Thank you! We’ll notify you once the website goes live.
