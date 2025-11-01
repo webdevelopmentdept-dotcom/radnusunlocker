@@ -5,6 +5,10 @@
       "dest": "/google1e16842b0c746b.html"
     },
     {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
