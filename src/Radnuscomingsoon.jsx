@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import bgImage from "./assets/comingsoonimage.png"; // 🌌 background image
 import rocketImage from "./assets/rocketimg2.png"; // 🚀 rocket image
 import logo from "./assets/logo.png"; // 🪐 logo
+import { Helmet } from "react-helmet";
 import "./App.css";
 
 function Radnuscomingsoon() {
